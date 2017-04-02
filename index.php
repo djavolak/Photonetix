@@ -2,7 +2,7 @@
 
 include 'functions.php';
 
-if (isset($_SESSION['login'])) {
+if (!isset($_SESSION['login'])) {
     $_SESSION['login'] = false;
 }
 ?>
