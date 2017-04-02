@@ -14,7 +14,12 @@ if (!islogedIn()) {
     <title>User page</title>
 </head>
 <body>
+<input type="text" name="search" placeholder="Pretraga korisnika">
 
+<?php
+
+
+?>
 
 </body>
 </html>
