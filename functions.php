@@ -56,3 +56,7 @@ function searchUser($keyword) {
 
     return false;
 }
+
+function redirect($url) {
+    header('Location: '. $url);
+}

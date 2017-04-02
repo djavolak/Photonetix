@@ -22,7 +22,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 }
 
 if (islogedIn()) {
-    header('Location: user.php');
+    redirect('user.php');
 }
 
 if (isset($_GET['msg']) && strlen($_GET['msg']) > 0) {
